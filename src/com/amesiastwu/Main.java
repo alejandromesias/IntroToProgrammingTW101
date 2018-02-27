@@ -23,8 +23,13 @@ public class Main {
         rTriangle.draw(size);
 
         IsoscelesShaper isosceles = new IsoscelesShaper();
-        int isoSize = 6;
+        int isoSize = 3;
         System.out.println("Draw an isosceles triangle:");
         isosceles.draw(isoSize);
+
+        DiamondShaper diamond = new DiamondShaper();
+        int diaSize = 3;
+        System.out.println("Draw a diamond:");
+        diamond.draw(diaSize);
     }
 }
