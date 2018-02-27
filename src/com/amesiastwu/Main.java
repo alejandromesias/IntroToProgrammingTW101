@@ -31,5 +31,10 @@ public class Main {
         int diaSize = 3;
         System.out.println("Draw a diamond:");
         diamond.draw(diaSize);
+
+        DiamondNamer diamondName = new DiamondNamer();
+        int nameSize = 3;
+        System.out.println("Draw a diamond with name:");
+        diamondName.draw(nameSize);
     }
 }
