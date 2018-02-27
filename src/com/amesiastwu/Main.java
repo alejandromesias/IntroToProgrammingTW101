@@ -21,5 +21,10 @@ public class Main {
         int size = 4;
         System.out.println("Draw a right triangle:");
         rTriangle.draw(size);
+
+        IsoscelesShaper isosceles = new IsoscelesShaper();
+        int isoSize = 6;
+        System.out.println("Draw an isosceles triangle:");
+        isosceles.draw(isoSize);
     }
 }
