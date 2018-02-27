@@ -7,7 +7,7 @@ public class Main {
 	    System.out.println("*");
 
 	    HorizontalTracer line = new HorizontalTracer();
-	    int length = 10;
+	    int length = 9;
         System.out.println("Print a line:");
 	    line.draw(length);
 	    System.out.print("\n");
@@ -23,18 +23,23 @@ public class Main {
         rTriangle.draw(size);
 
         IsoscelesShaper isosceles = new IsoscelesShaper();
-        int isoSize = 3;
+        int isoSize = 4;
         System.out.println("Draw an isosceles triangle:");
         isosceles.draw(isoSize);
 
         DiamondShaper diamond = new DiamondShaper();
-        int diaSize = 3;
+        int diaSize = 4;
         System.out.println("Draw a diamond:");
         diamond.draw(diaSize);
 
         DiamondNamer diamondName = new DiamondNamer();
-        int nameSize = 3;
+        int nameSize = 4;
+        String name = "Alejo";
         System.out.println("Draw a diamond with name:");
-        diamondName.draw(nameSize, "Alejo");
+        diamondName.draw(nameSize, name);
+
+        FizzBuzzClass counter = new FizzBuzzClass();
+        System.out.println("FizzBuzz Exercise:");
+        counter.FizzBuzz();
     }
 }
