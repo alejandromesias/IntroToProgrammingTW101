@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b84ad33c-5e4c-4076-9b1d-7f0147ac1667" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/amesiastwu/DiamondShaper.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/amesiastwu/Main.java" afterPath="$PROJECT_DIR$/src/com/amesiastwu/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/amesiastwu/HorizontalTracer.java" afterPath="$PROJECT_DIR$/src/com/amesiastwu/HorizontalTracer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/amesiastwu/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,9 +67,12 @@
       <file leaf-file-name="HorizontalTracer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/amesiastwu/HorizontalTracer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#89#90#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,10 +100,10 @@
         <option value="$PROJECT_DIR$/src/com/amesiastwu/VerticalTracer.java" />
         <option value="$PROJECT_DIR$/src/com/amesiastwu/RightTriangleShaper.java" />
         <option value="$PROJECT_DIR$/src/com/amesiastwu/IsoscelesShaper.java" />
-        <option value="$PROJECT_DIR$/src/com/amesiastwu/HorizontalTracer.java" />
         <option value="$PROJECT_DIR$/src/com/amesiastwu/Diamond.java" />
         <option value="$PROJECT_DIR$/src/com/amesiastwu/Main.java" />
         <option value="$PROJECT_DIR$/src/com/amesiastwu/DiamondShaper.java" />
+        <option value="$PROJECT_DIR$/src/com/amesiastwu/HorizontalTracer.java" />
       </list>
     </option>
   </component>
@@ -277,14 +278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amesiastwu/HorizontalTracer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amesiastwu/IsoscelesShaper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -301,10 +294,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amesiastwu/HorizontalTracer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amesiastwu/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
