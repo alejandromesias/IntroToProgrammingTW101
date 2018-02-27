@@ -16,5 +16,10 @@ public class Main {
         int height = 4;
         System.out.println("Print a vertical line:");
         column.draw(height);
+
+        RightTriangleShaper rTriangle = new RightTriangleShaper();
+        int size = 4;
+        System.out.println("Draw a right triangle:");
+        rTriangle.draw(size);
     }
 }
