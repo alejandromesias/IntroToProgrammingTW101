@@ -10,5 +10,11 @@ public class Main {
 	    int length = 10;
         System.out.println("Print a line:");
 	    line.draw(length);
+	    System.out.print("\n");
+
+        VerticalTracer column = new VerticalTracer();
+        int height = 4;
+        System.out.println("Print a vertical line:");
+        column.draw(height);
     }
 }
