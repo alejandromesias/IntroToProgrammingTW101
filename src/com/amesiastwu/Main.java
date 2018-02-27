@@ -35,6 +35,6 @@ public class Main {
         DiamondNamer diamondName = new DiamondNamer();
         int nameSize = 3;
         System.out.println("Draw a diamond with name:");
-        diamondName.draw(nameSize);
+        diamondName.draw(nameSize, "Alejo");
     }
 }

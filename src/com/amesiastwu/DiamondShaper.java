@@ -2,6 +2,10 @@ package com.amesiastwu;
 
 public class DiamondShaper extends HorizontalTracer {
 
+    public void draw(int size){
+        draw(size,"");
+    }
+
 
     public void draw(int size, String name){
         for(int i = 0; i < size; i++){
