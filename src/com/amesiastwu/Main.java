@@ -38,8 +38,7 @@ public class Main {
         System.out.println("Draw a diamond with name:");
         diamondName.draw(nameSize, name);
 
-        FizzBuzzClass counter = new FizzBuzzClass();
         System.out.println("FizzBuzz Exercise:");
-        counter.FizzBuzz();
+        FizzBuzzClass.FizzBuzz();
     }
 }

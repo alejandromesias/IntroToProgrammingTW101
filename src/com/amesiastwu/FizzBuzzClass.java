@@ -1,9 +1,9 @@
 package com.amesiastwu;
 
 public class FizzBuzzClass {
-     public void FizzBuzz(){
+     public static void FizzBuzz(){
          final int inicio = 1;
-         final int fin = 20;
+         final int fin = 100;
 
          for(int i = inicio; i <= fin; i++ ){
              String numberToPrint = evaluateNumber(i);
@@ -12,7 +12,7 @@ public class FizzBuzzClass {
 
      }
 
-     private String evaluateNumber(int integer){
+     private static String evaluateNumber(int integer){
 
          if(integer % 3 == 0 && integer % 5 == 0){
              return "FizzBuzz";
