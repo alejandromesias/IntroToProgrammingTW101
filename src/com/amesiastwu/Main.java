@@ -41,7 +41,9 @@ public class Main {
         System.out.println("FizzBuzz Exercise:");
         FizzBuzzClass.FizzBuzz();
 
+        System.out.print("\n");
         System.out.println("Prime factors:");
-        System.out.println(PrimeFactors.generate(30));
+        int numberToFactor = 30;
+        System.out.println(PrimeFactors.generate(numberToFactor));
     }
 }
