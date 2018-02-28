@@ -32,15 +32,17 @@ Example when n=3: <br/>
 ## Diamond Exercises
 Isosceles Triangle<br/>
 Given a number n, print a centered triangle. Example for n=3:<br/>
- 
+![alt text](https://drive.google.com/uc?export=view&id=1qp75ZrxnX8_U0458kjnvDdF0KUE9VpSm)
+
 ## Diamond
 
 Given a number n, print a centered diamond. Example for n=3:<br/>
+![alt text](https://drive.google.com/uc?export=view&id=1_3BrwAod6o4ucHcdKXX2cprRjPFmzS7o)
 
 ## Diamond with Name
 
 Given a number n, print a centered diamond with your name in place of the middle line. Example for n=3:<br/>
-
+![alt text](https://drive.google.com/uc?export=view&id=1hbWX2K5q1RR0OcsdtnQhhYRQ_JO63EC7)
 
 ## FizzBuzz Exercise
 
