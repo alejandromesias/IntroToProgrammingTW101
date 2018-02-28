@@ -13,16 +13,18 @@ public class FizzBuzzClass {
      }
 
      private static String evaluateNumber(int integer){
+         int firstDivisor = 3;
+         int secondDivisor = 5;
 
-         if(integer % 3 == 0 && integer % 5 == 0){
+         if(integer % firstDivisor == 0 && integer % secondDivisor == 0){
              return "FizzBuzz";
          }
 
-         if(integer % 3 == 0){
+         if(integer % firstDivisor == 0){
              return "Fizz";
          }
 
-         if(integer % 5 == 0){
+         if(integer % secondDivisor == 0){
              return "Buzz";
          }
 
