@@ -33,12 +33,15 @@ public class Main {
         diamond.draw(diaSize);
 
         DiamondNamer diamondName = new DiamondNamer();
-        int nameSize = 4;
+        int namerSize = 4;
         String name = "Alejo";
         System.out.println("Draw a diamond with name:");
-        diamondName.draw(nameSize, name);
+        diamondName.draw(namerSize, name);
 
         System.out.println("FizzBuzz Exercise:");
         FizzBuzzClass.FizzBuzz();
+
+        System.out.println("Prime factors:");
+        System.out.println(PrimeFactors.generate(30));
     }
 }
